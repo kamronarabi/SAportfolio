@@ -13,7 +13,7 @@ export default function Header() {
         Kamron Arabi&nbsp;in&nbsp;South Africa
         </div>
       <nav className="nav-links">
-        <button onClick={() => goTo("projects")}>Project</button>
+        <button onClick={() => goTo("project")}>Project</button>
         <button onClick={() => goTo("highlights")}>Highlights</button>
         <button onClick={() => goTo("contact")}>Contact</button>
       </nav>
