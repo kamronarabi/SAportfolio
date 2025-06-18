@@ -28,9 +28,9 @@ const PortfolioPage = () => {
                 <ul>
                   <li><b>Hi I'm Kamron</b> and this page is a digital log of my time as a Study Abroad Student and a Software Engineering intern in Cape Town, South Africa!</li>
                   <br/>
-                  <li><b>The Goal: </b> Work hand in hand with local community organizations in order to build software tailored to their needs in order to make a real impact within underprivileged communities.</li>
+                  <li><b>The Goal: </b> Work hand in hand with local community organizations in order to build software tailored to their needs and make a real impact within underprivileged communities.</li>
                   <br/>
-                  <li><b>What I gained: </b>Not only did I gain valuable technical experience, but I also gained insight on issues people in other countires face, and how I as a Global Citizen can help affect change</li>
+                  <li><b>What I gained: </b>Not only did I learn valuable technical skills, I also gained insight on issues people in other countires face, and how I, as a global citizen, can help affect change.</li>
                 </ul>
                 </p>
 
@@ -86,7 +86,7 @@ const PortfolioPage = () => {
                 <ul>
                   <li>This trip was no doubt a great learning experience, but what really made it memorable was the time spent off the computer. Safaris, experiential learning excursions, and group dinners helped form bonds and connections as well as an immersive cultural experience.</li>
                   <br/>
-                  <li>From exploring the streets of Cape Town to the nature of St. Lucia this trip is filled with so many memories in such a short time. One that stood out was our day at Cape Vidal Beach, one of the most beautiful places I've been to surrounded by ocean, mountains, and monkeys. </li>
+                  <li>From exploring the streets of Cape Town to the nature of St. Lucia this trip was filled with so many memories in such a short time. One that stood out was our day at Cape Vidal Beach, one of the most beautiful places I've ever been to, surrounded by ocean, mountains, and monkeys. </li>
                   <br/>
                   <li><b>What I gained: </b> This trip gave me a once in a lifetime oppurtunity to explore a new country on a continent I've never been to, as well as gaining lifelong friendships.</li>
                 </ul>
@@ -105,6 +105,10 @@ const PortfolioPage = () => {
       </main>
         <MDBFooter id='contact' className='text-center' color='white' bgColor='black'>
       <MDBContainer className='p-4'>
+         <div className='text-center p-3' style={{marginBottom: '20px', marginTop:'-40px',backgroundColor: 'black' }}>
+        Special thanks to Dr. Sanethia Thomas, Ping Neo, Naomi Harrell, EDU Africa, and the Housing Assembly for making this oppurtunity possible. 
+        </div>
+    
         <section className='mb-4'>
 
           <MDBBtn outline color="light" floating className='m-1' href="mailto:kamronarabi@gmail.com" role='button' target= "_blank">
@@ -119,10 +123,10 @@ const PortfolioPage = () => {
             <FaLinkedin />
           </MDBBtn>
         </section>
-        <div className='text-center p-3' style={{marginTop: '-30px',backgroundColor: 'black' }}>
-         Contact Me!
-        </div>
       </MDBContainer>
+        <div className='text-center p-3' style={{marginTop: '-45px',backgroundColor: 'black' }}>
+            Contact Me!
+        </div>
     </MDBFooter>
    </div>
   )
