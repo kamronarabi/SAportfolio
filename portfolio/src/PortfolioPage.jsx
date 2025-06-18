@@ -19,7 +19,7 @@ const PortfolioPage = () => {
         <br/>
         <br/>
        <section>
-        <div className="section-card">
+        <div className="section-card" id='experience'>
             <h2 className="section-title">The Experience</h2>
 
             <div className="section-body">
@@ -82,16 +82,19 @@ const PortfolioPage = () => {
 
             <div className="section-body">
                 <p className="section-copy">
+                <br/>
                 <ul>
-                  <li>q</li>
-                  <li></li>
-                  <li></li>
+                  <li>This trip was no doubt a great learning experience, but what really made it memorable was the time spent off the computer. Safaris, experiential learning excursions, and group dinners helped form bonds and connections as well as an immersive cultural experience.</li>
+                  <br/>
+                  <li>From exploring the streets of Cape Town to the nature of St. Lucia this trip is filled with so many memories in such a short time. One that stood out was our day at Cape Vidal Beach, one of the most beautiful places I've been to surrounded by ocean, mountains, and monkeys. </li>
+                  <br/>
+                  <li><b>What I gained: </b> This trip gave me a once in a lifetime oppurtunity to explore a new country on a continent I've never been to, as well as gaining lifelong friendships.</li>
                 </ul>
                 </p>
 
                 <figure className="section-photo">
                 <img
-                    src="https://placehold.co/400x250"
+                    src="/Beachgrouppic.jpg"
                     alt="Memorable moment"
                     loading="lazy"
                 />
